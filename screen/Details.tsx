@@ -56,7 +56,7 @@ const Details = (props: any) => {
         end={[0.6, 1.5]}
       >
         <View style={styles.top}>
-          <MaterialIcons name="keyboard-backspace" color="#fff" size={22} />
+          <MaterialIcons name="keyboard-backspace" color="#fff" size={22} onPress={() => props.navigation.goBack()} />
           <View style={styles.iconContainer}>
             <AntDesign name="shoppingcart" color="#a0a7b1" size={21} />
           </View>

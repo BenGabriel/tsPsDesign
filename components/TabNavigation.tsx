@@ -22,7 +22,7 @@ const iconDetails: Item[] = [
   },
   {
     id: 2,
-    name: "Profile",
+    name: "Person",
     icon: "person-outline"
   },
   {

@@ -15,7 +15,8 @@ const EachImage: FC<TopIcons> = (props) => {
         elevation: 10,
         borderRadius: 20,
         paddingVertical: 15,
-        marginRight: 10
+        marginRight: 10,
+        marginBottom: 10
       }}
       onPress={() =>
         navigation.navigate("Profile", {
